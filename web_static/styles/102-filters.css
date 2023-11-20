@@ -64,3 +64,41 @@
 .filters .amenities:hover .popover {
     display: block;
 }
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+    .filters h3 {
+        margin-top: 18px;
+    }
+
+    .filters h4 {
+        margin-bottom: 0px;
+    }
+
+    .filters .amenities,
+    .filters .locations {
+        width: 30%;
+        margin-left: 30px;
+    }
+
+    .filters .amenities .popover {
+        left: -31px;
+
+    }
+}
+
+@media all and (max-width: 480px) {
+    .filters h3 {
+        margin-top: 12px;
+    }
+    .filters h4 {
+        font-size: 13px;
+        margin-bottom: 0px;
+    }
+    .filters .amenities,
+    .filters .locations {
+        margin-left: 30px;
+    }
+    .filters .amenities .popover {
+        left: -31px;
+    }
+}
